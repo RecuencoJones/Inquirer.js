@@ -51,6 +51,12 @@ module.exports = {
     choices: ['choice 1', new inquirer.Separator(), 'choice 2', 'choice 3']
   },
 
+  ordinal: {
+    message: 'message',
+    name: 'name',
+    choices: ['choice 1', new inquirer.Separator(), 'choice 2', 'choice 3']
+  },
+
   editor: {
     message: 'message',
     name: 'name',

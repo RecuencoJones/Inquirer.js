@@ -65,6 +65,7 @@ inquirer.createPromptModule = function(opt) {
     this.registerPrompt('rawlist', require('./prompts/rawlist'));
     this.registerPrompt('expand', require('./prompts/expand'));
     this.registerPrompt('checkbox', require('./prompts/checkbox'));
+    this.registerPrompt('ordinal', require('./prompts/ordinal'));
     this.registerPrompt('password', require('./prompts/password'));
     this.registerPrompt('editor', require('./prompts/editor'));
   };

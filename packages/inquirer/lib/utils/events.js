@@ -49,6 +49,10 @@ module.exports = function(rl) {
     iKey: keypress.pipe(
       filter(({ key }) => key && key.name === 'i'),
       share()
+    ),
+    rKey: keypress.pipe(
+      filter(({ key }) => key && key.name === 'r'),
+      share()
     )
   };
 };
